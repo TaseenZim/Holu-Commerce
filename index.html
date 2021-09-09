@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holu Commerce | BD</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?size=338&ext=jpg" type="image/x-icon">
+    <!-- Bootstarp stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: #FAF0E6;">
+ 
+  <header>
+<!-- Main top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo2.png" alt="" width="200px" height="41">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Products</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Electronic Devices</a></li>
+                  <li><a class="dropdown-item" href="#">TV & Home Appliences</a></li>
+                  <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                  <li><a class="dropdown-item" href="#">Men's Fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Women's Fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Home & Lifestyle</a></li>
+                  <li><a class="dropdown-item" href="#">Sports and Outdoors</a></li>
+                  <li><a class="dropdown-item" href="#">Automobil and Motorbikes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- image slider -->
+      <section class="container mt-3">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                    <div class="col-lg-7">
+                        <h1>HOLU-lulu Dolby Headphone</h1>
+                        <p>Experience immersive listening wherever you go with Holu Studio Buds—true wired noise cancelling headphones.</p>
+                        <h1>12,500.69 TK</h1>
+                        <button class="btn btn-danger">BUY NOW</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                    <div class="col-lg-7">
+                        <h1>HOLU OLED 16K 69 inches TV</h1>
+                        <p>Powerful 16K AI upscaling powered by Neo Quantum Processor ensures you always get full 16K resolution.</p>
+                        <h1>1,000,799.69 TK</h1>
+                        <button class="btn btn-danger">BUY NOW</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                  <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                      <div class="col-lg-7">
+                        <h1>HOLU X-Box Series X</h1>
+                        <p>Games built with the Xbox Series X|S development kit showcase significantly reduced load times and stunning visuals at up to 120FPS.</p>
+                        <h1>2,00,599.69 TK</h1>
+                        <button class="btn btn-danger">BUY NOW</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+  </header>
+  
+  <main>
+    <!-- Three catagories -->
+    <section class="container my-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="p-3 border bg-primary d-flex align-items-center rounded-3">
+                  <h1 class="text-white">Holu Wathches</h1>
+                  <img src="images/categories/watch.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="p-3 border bg-primary d-flex align-items-center rounded-3">
+                  <h1 class="text-white">Holu Backpacks</h1>
+                  <img src="images/categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="p-3 border bg-primary d-flex align-items-center rounded-3">
+                  <h1 class="text-white">Holu Sneakers</h1>
+                  <img src="images/categories/shoes.png" alt="">
+              </div>
+            </div>
+            
+    </section>
+
+    <!-- shoes catagories -->
+    <section class="container">
+        <h2 class="my-4 d-flex justify-content-center">Top Selling Shoes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu Supply 300</h5>
+                  <p class="card-text">Prototype after prototype. Innovation after innovation. Testing after testing. Meet us in the hot pursuit of the pinnacle harmonization of weight, cushioning, and responsiveness. Ultraboost 21. Say hello to incredible energy return.</p>
+                </div>
+                <div class="container">
+                    <h3>10,799.69 TK</h3>
+                  <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu Reebook Pump69</h5>
+                  <p class="card-text">Pack your bag, lace up and get going. City adventures beckon in these NMD_R1 shoes. An update to an acclaimed '80s runner from the adidas archive, these modern sneakers have a soft, stretchy knit upper and energy-returning Boost cushioning for all-day comfort.</p>
+                </div>
+                <div class="container">
+                    <h3>13,599.69 TK</h3>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu Reebook Altarrarin</h5>
+                  <p class="card-text">Timeless appeal. Effortless style. Everyday versatility. For over 50 years and counting, adidas Stan Smith Shoes have continued to hold their place as an icon. This pair shows off a fresh redesign as part of adidas' commitment to use only recycled polyester by 2024.</p>
+                </div>
+                <div class="container">
+                    <h4>15,499.69 TK</h4>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- backpack catagories -->
+    <section class="container my-5">
+        <h2 class="my-4 d-flex justify-content-center">Top Selling Backpacks</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu RDX 158</h5>
+                  <p class="card-text">The Timbuk2 Authority bag protects and organizes everything you need for the school day. The bag’s tough materials can take a beating, and it will last a long time.</p>
+                </div>
+                <div class="container">
+                    <h3>19,799.69 TK</h3>
+                  <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu Radison Blu</h5>
+                  <p class="card-text">With separate sections for shoes, a laptop, school supplies, and gym clothes, The Hakuba from Lo & Sons is comfortable to carry, and it looks good, too.</p>
+                </div>
+                <div class="container">
+                    <h3>21,599.69 TK</h3>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 h-100 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Holu Blackie Nigga</h5>
+                  <p class="card-text">Stylish materials combine with minimalist design and utilitarian features to bring you a 19-liter backpack that’s equally at home in the classroom and in the city.</p>
+                </div>
+                <div class="container">
+                    <h4>25,499.69 TK</h4>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- subscribe -->
+    <section class="container d-flex justify-content-center align-items-center rounded-3 my-5" style="height: 300px;background-color: chocolate;">
+        <div>
+            <h1>LET'S GET IN TOUCHES</h1>
+        <p class="d-flex justify-content-center">to get updates on sales and many more</p>
+        <div class="d-flex justify-content-center">
+            <input type="email" placeholder="Your E-mail">
+        <button class="btn btn-secondary">SUBMIT</button>
+        </div>
+        </div>
+    </section>
+      
+  </main>
+
+  <footer class="d-flex justify-content-center mt-7">
+    <small>Copyright © 2021. All Rights Reserved and Developed by Taseen Zim</small>
+  </footer>
+
+
+
+<!-- Bootstarp Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
